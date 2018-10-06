@@ -1,0 +1,51 @@
+.content{
+  margin: 0;
+  padding-top: 80px;
+}
+
+.snippets{
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.card-body{
+  margin: 0;
+  padding: 0;
+}
+.card-title{
+  font-size: 26px;
+  font-family: "Montserrat";
+  color: rgb(70, 80, 101);
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+.dote{
+  color: #f0454c;
+}
+.card-text{
+  font-size: 15px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  color: rgb(154, 160, 171);
+  margin-bottom: 25px;
+}
+.card-link{
+  color: #f0454c;
+  text-transform: uppercase;
+  //&::after{
+  //  content: '-';
+  //  color: #f0454c;
+  //  margin-left: 5px;
+  //}
+  &:hover,&:active{
+    color: rgba(240, 69, 87, .8);
+  }
+}
+
+
+
+
+
+

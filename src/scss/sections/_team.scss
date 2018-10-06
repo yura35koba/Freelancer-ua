@@ -1,0 +1,80 @@
+
+
+.title-team{
+  margin-top: 100px;
+
+  .uor-team_title{
+    text-transform: uppercase;
+    font-size: 32px;
+    font-family: "Montserrat";
+    color: rgb(49, 74, 91);
+    font-weight: bold;
+  }
+  .uor-deck{
+    font-size: 16px;
+    font-family: 'Open Sans',sans-serif;
+    color: #9aa0ab;
+    margin-top: 5px;
+  }
+}
+.photo-team{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 40px;
+  .uor-team-name{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+
+  .team-name{
+    font-size: 22px;
+    font-family: "Montserrat";
+    color: rgb(49, 74, 91);
+    font-weight: bold;
+    text-transform: uppercase;
+
+  }
+  .team-position{
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: rgb(240, 69, 76);
+  }
+  .team-hobby{
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: rgb(154, 160, 171);
+    margin-top: 15px;
+  }
+}
+.team-more{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+.team-line{
+  width: 100%;
+  background-color: rgb(230, 234, 237);
+  height: 1px;
+  margin-bottom: 33px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
